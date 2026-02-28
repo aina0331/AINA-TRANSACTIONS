@@ -63,6 +63,11 @@
                                 Console.WriteLine("---------------------------");
                             }
                         }
+                    if (choice == 3) {
+                        Console.Write("Enter item number to update (0 to " + (count - 1) "): ");
+
+                        int index= Convert.ToInt16(Console.Read());
+
                     }
                 }
             }
